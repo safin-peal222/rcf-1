@@ -1,0 +1,366 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --Bahnschrift:'Bahnschrift Light'
+}
+
+
+header .navbar .nav-item
+{
+    padding-left: 2rem!important;
+    font-size: 20px;
+    font-weight: bold;
+    color: white!important;
+}
+header .navbar .nav-item .nav-link
+{
+    color: white;
+    font-family: Bahnschrift SemiCondensed;
+}
+header .navbar .nav-item .nav-link:hover
+{
+    color: black;
+}
+
+
+header .navbar-brand
+{
+    padding-left: 10rem!important;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Bahnschrift SemiCondensed;
+
+}
+header .navbar .nav-item:last-child{
+         
+    padding-right: 5rem;
+  }
+
+
+.main-section
+{
+    background: url(../img/48869.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position: center;
+}
+
+
+.main-section .overlay
+{
+    background: rgba(10, 108, 212, 0.8);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+}
+header .about-us .about-devteam h3
+{
+    padding-top: 3rem;
+    font-family: Bradley Hand ITC;
+    color: white;
+    font-weight: bold;
+    line-height: 2.5rem;
+    font-size: 30px;
+}
+
+header .about-us .about-devteam button{
+    border-radius: 30px;
+    margin-top: 2rem;
+    font-family: Bahnschrift ;
+    font-size: 15px;
+    color: #0179E1
+
+}
+
+header .about-us .about-rcf
+{
+ 
+  width: 300px;
+  border: 1px solid rgba(221, 230, 240, 0.9) ;
+  border-radius: 30px;
+  height: 380px;
+  margin-top: 3rem;
+  background-color: lightgray;
+  position: relative;
+  
+  
+}
+header .about-us .about-rcf
+{
+    box-shadow: -12px 13px 2px 5px rgba(221, 230, 240, 0.7) ;
+}
+
+header .about-us .about-rcf .image-part img{
+    width: 10rem;
+} 
+header .about-us .about-rcf .rcf 
+{
+    
+  background-color: blue;
+width: 100%;
+height: 50px;
+padding-top: 1rem;
+margin-top: 5rem;
+border-radius: 0px 0px 30px 30px;
+color: beige;
+font-family: Bahnschrift SemiCondensed;
+
+
+
+  
+}
+header .about-us .about-rcf .image-header p
+{
+    font-family:Bradley Hand ITC;
+    color: #0000FF;
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* content box*/
+.content-box .content1, .content2 ,.content3
+{
+    border: 1px solid #0179E1;
+    width: 20rem;
+  height: 8rem;
+  border-radius: 0.5em;
+  padding: 1rem;
+  
+}
+
+.content-box .content1, .content2 ,.content3 span
+{
+    display: block;
+   
+
+}
+.content-box .content1 p, .content2 p ,.content3 p
+{
+    font-family: var(--Bahnschrift);
+    padding-left: 7rem;
+}
+.content-box .content2
+{
+    background-color:#0179E1;
+}
+.content-box .content2 p, .content2 span
+{
+    color: white;
+    word-spacing: 1rem;
+    font-family: var(--Bahnschrift);
+}
+.content-box .content1 p , .content1 span,.content3 p , .content3 span
+{
+    color:#0179E1;
+    word-spacing: 1rem;
+    font-family: var(--Bahnschrift);
+}
+
+.image-part-1 .image-header
+{
+    background: url('../img/download.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 8rem;
+    width: 20rem;
+    margin-top: 1rem;
+    border-radius: .5em;
+    position: relative;
+}
+.image-part-1 .image-header h5
+{
+    color: white;
+   position: absolute;
+   bottom: 3px;
+   right: 0;
+   font-family: var(--Bahnschrift);
+}
+.image-part-1 .image-2,.image-part-2 .image-2
+{
+    background: url('../img/Picture1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 8rem;
+    width: 96%;
+    border-radius: .5em;
+    margin-top: 1rem;
+}
+.image-part-1 .image-2 h5
+{
+    color: white;
+   position: absolute;
+   bottom: 3px;
+   left: 3px;
+   font-family: var(--Bahnschrift);
+}
+.image-part-2 .image-2 > span
+{
+   
+    color: white;
+    display: block;
+  
+   font-family: var(--Bahnschrift);
+   
+}
+.image-part-2 .image-2 {
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.image-part-2 .image-3 img
+{
+    margin-top: 1rem;
+    height: 8rem;
+
+
+}
+
+/*footer*/
+
+.footer
+{
+    background: url(../img/thumb-1920-736799.jpg);
+    background-position: center;
+    height: 80vh;
+    position: relative;
+    
+}
+.footer .overlay
+{
+    background:rgba(10, 108, 212, 0.8); 
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+}
+
+.footer .join
+{
+    padding-top: 6rem;
+}
+.footer .join button
+{
+    border-radius: 30px;
+    color:#0179E1;
+    font-family: var(--Bahnschrift);
+    
+}
+.footer .about p,.footer .what p,.footer .how p
+{
+    color: white;
+  
+    font-family: var(--Bahnschrift);
+font-style: italic;
+
+}
+.footer .about h3,.footer .what h3,.footer .how h3
+{
+    padding-top: 3rem;
+    color: white;
+    font-family: var(--Bahnschrift);
+}
+
+
+.footer .footer-description 
+{
+
+    
+    text-align: center;
+    padding-top: 7rem;
+    color: white;
+    font-family: Bradley Hand ITC;
+    font-size: 1.1rem;
+    
+ 
+}
+
+
+
+
+
+
+@media (max-width: 991px){
+    header .about-us .about-devteam{
+        text-align: center;
+        padding: 1rem;
+        font-size: 5px;
+        
+    }
+}
+
+@media (max-width: 991px){
+    header .about-us .about-devteam{
+        text-align: center;
+        padding: 1rem;
+        font-size: 5px;
+        
+    }
+}
+@media (max-width: 580px){
+    .footer .about p,.footer .what p,.footer .how p
+{
+    font-size: 20px;
+    line-height: 5px;
+
+}
+    }
+
+    @media (max-width: 580px){
+        .footer .about h3,.footer .what h3,.footer .how h3{
+            padding-top: 8px;
+            font-size: 25px;
+            padding-bottom: 8px;
+        }
+    }
+    @media (max-width: 580px){
+        
+.footer .join
+{
+    padding-top: 5px;
+}
+    }
+
+    @media (max-width: 580px)
+    {
+        .footer .join button
+        {
+            display: block;
+            width: 10rem;
+            height: 30px;
+           
+        }
+
+    }
+  
+    @media (max-width: 580px)
+    {
+        .footer
+        {
+            margin-left: 2rem;
+        }
+
+    }
+    @media (max-width: 992px)
+    {
+        .navbar .navbar-toggler{
+            padding: 1px 5px;
+            font-size: 30px;
+            line-height: 0.3;
+            background: #fff;
+            
+            
+        }
+    }
+
+    @media (max-width: 767px)
+    {
+        .navbar .navbar-toggler-icon{
+            color: black!important;
+        }
+    }
+    
